@@ -9,6 +9,7 @@
 
 import execjs
 
+execjs.get()
 user = "1047053860@qq.com"
 password = "woainizhongguo135"
 

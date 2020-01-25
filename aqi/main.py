@@ -10,7 +10,7 @@ import execjs
 import requests
 
 node = execjs.get()
-
+# 网站自身显示出问题了，最新尝试最后一步解码失败
 # Params
 method = 'GETCITYWEATHER'
 city = '北京'
