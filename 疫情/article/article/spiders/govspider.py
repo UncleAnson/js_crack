@@ -12,7 +12,7 @@ conn = redis.StrictRedis(connection_pool=pool)
 
 
 class YiqingSpider(scrapy.Spider):
-    name = 'gwyspider'
+    name = 'govspider'
 
     def start_requests(self):
         # # 国务院
@@ -142,7 +142,7 @@ class YiqingSpider(scrapy.Spider):
             response.xpath('//div[@class="policyLibraryOverview_header"]//tr[5]/td[2]/text()').extract())
         # 发文日期
         pub_date = ''.join(response.xpath('//div[@class="policyLibraryOverview_header"]//tr[5]/td[4]/text()').extract())
-        content = ''.join(response.xpath('//div[@class="pages_content"]//text()').extract())
+        content = ''.join(response.xpath('//div[@class="pages_content"]//text()').extract()).replace('"', '\"')
         # 附件信息
         attach = response.xpath('//div[@class="pages_content"]//p/a')
         attachment = []
@@ -161,7 +161,7 @@ class YiqingSpider(scrapy.Spider):
         item["content"] = content
         item["title"] = title
         item["pub_no"] = pub_no
-        item["tag"] = tag
+        item["tag"] = return_tag(title, tag, source)
         item["website"] = website
         item["url"] = url
         item["article_id"] = article_id
@@ -169,7 +169,6 @@ class YiqingSpider(scrapy.Spider):
         yield item
 
     def parse_zhengce_content(self, response):
-        print('~~~~')
         tag = response.meta["tag"]
         website = response.meta["website"]
         url = response.url
@@ -189,7 +188,9 @@ class YiqingSpider(scrapy.Spider):
         pub_no = ''.join(response.xpath('//td/table[@class="bd1"][1]//tr[4]/td[2]/text()').extract())
         # 发文日期
         pub_date = ''.join(response.xpath('//td/table[@class="bd1"][1]//tr[2]/td[4]/text()').extract())
-        content = ''.join(response.xpath('//td[@id="UCAP-CONTENT"]//text()').extract())
+        # 正文
+        content = ''.join(response.xpath('//td[@id="UCAP-CONTENT"]//text()').extract()).replace('"', '\"')
+
 
         item = ZhengceContentItem()
         item["index_no"] = index_no
@@ -200,8 +201,9 @@ class YiqingSpider(scrapy.Spider):
         item["content"] = content
         item["title"] = title
         item["pub_no"] = pub_no
-        item["tag"] = tag
+        item["tag"] = return_tag(title, tag, "")
         item["website"] = website
         item["url"] = url
         item["article_id"] = article_id
+
         yield item
