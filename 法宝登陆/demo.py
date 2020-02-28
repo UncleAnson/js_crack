@@ -37,6 +37,11 @@ class Crawler(object):
         self.browser.get(url)
         # WebDriverWait(self.browser, 20, 0.5).until(EC.presence_of_element_located((By.LINK_TEXT, "用户名称：")))
 
+    def __del__(self):
+        for fp in self.browser.window_handles:
+            self.browser.switch_to_window(fp)
+            self.browser.close()
+
     def execute(self, username, passwd, code):
         # 输入账号密码
         self.browser.find_element_by_id("password").send_keys(username)
