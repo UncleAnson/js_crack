@@ -22,8 +22,8 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
 }
 url = "http://passport.58.com/58/login/init?source=58-default-pc&path=http%253A%252F%252Fmy.58.com%252F%253Fpts%253D1588734593493&psdk-d=jsdk&psdk-v=1.0.3&callback=JsonpCallBack1588734560195501"
-# r = requests.get(url,headers=headers)
-# print(r.text)
+r = requests.get(url,headers=headers)
+print(r.text)
 
 # 获得rsa（rsaModulus、rsaExponent）
 url = "https://passport.58.com/58/rsa?source=58-default-pc&psdk-d=jsdk&psdk-v=1.0.2&callback=JsonpCallBack1578450734460476"
