@@ -1,3 +1,5 @@
+// sojson.v5的破解
+// 注意：1、变量名还原 2、编码还原 3、解决格式化判断代码 4、阅读代码
 var qs_base_data /* _0x4280 */= ['Z1VP', 'WVRU', 'dG9VcHBlckNhc2U\x3d', 'c3Vic3Ry', 'bmN1', 'bGVuZ3Ro', 'NXwzfDF8MHw2fDJ8NA\x3d\x3d', 'c3BsaXQ\x3d', 'c29ydA\x3d\x3d', 'VGxQ', 'c2lnbl90eXBl', 'cHVzaA\x3d\x3d', 'UVhZ', 'WWxW', 'QUdR', 'Qnhs', 'QUxt', 'VVlS', 'SGxI', 'VlNV', 'Q3NM', 'Nnw0fDF8N3w4fDJ8M3w1fDA\x3d', 'cmVwbGFjZQ\x3d\x3d', 'b3dK', 'OXw2fDN8MXw3fDB8NHwyfDh8NQ\x3d\x3d', 'QlJX', 'dE9h', 'a1lK', 'b1dX', 'aW5kZXhPZg\x3d\x3d', 'Y2hhckF0', 'bFNX', 'ZnJvbUNoYXJDb2Rl', 'eE1v', 'emhZ', 'Q0ts', 'eGlI', 'ZEN4', 'QUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLz0\x3d', 'M3wyfDF8NHww', 'aW1O', 'Y2hhckNvZGVBdA\x3d\x3d', 'TmFQ', 'dW9E', 'Z0xX', 'V1dL', 'TlBG', 'b0do', 'Z3hE', 'bXVx', 'R2ht', 'UmZu', 'bXlS', 'THJO', 'MXwwfDR8M3wy', 'bWFs', 'YXJncw\x3d\x3d', 'dXJs', 'cEVF', 'c3Vic3RyaW5n', 'bUlY', 'MHwyfDd8M3w2fDV8MXw0', 'SUpr', 'S0VQ', 'ZWNI', 'RFFX', 'cWZ3', 'ZEl5', 'YXBwbHk\x3d', 'dFNx', 'Y2Ft', 'YnNl', 'cmV0dXJuIChmdW5jdGlvbigpIA\x3d\x3d', 'e30uY29uc3RydWN0b3IoInJldHVybiB0aGlzIikoICk\x3d', 'eVZx', 'Y29uc29sZQ\x3d\x3d', 'NXwxfDB8M3w2fDR8N3w4fDI\x3d', 'd2Fybg\x3d\x3d', 'bG9n', 'ZGVidWc\x3d', 'ZXJyb3I\x3d', 'aW5mbw\x3d\x3d', 'ZXhjZXB0aW9u', 'dHJhY2U\x3d', 'NHwwfDF8NXwyfDZ8Mw\x3d\x3d', 'ZkZ0', 'bE5T', 'RUdT', 'VGZ1', 'VVRN', 'dG9TdHJpbmc\x3d', 'dXZm', 'QXJS', 'WHBJ', 'dkVB', 'QnBo', 'T2hD', 'c0hO', 'U0Vp', 'eFR5', 'cEZZ', 'WGRW', 'Rldv', 'b1Fp', 'Z3Jv', 'Y29x', 'ek9S', 'ZWht', 'TmRW', 'WkJ4', 'b3ZX', 'a0h1', 'SFRU', 'RVFH', 'TFFi', 'RU1M', 'RWVr', 'em1M', 'RFdp', 'TmJO', 'ella', 'dFBY', 'aFJx', 'Q3FP', 'Zkh2', 'RGd5', 'ZVdT', 'ZnVS', 'c0xG', 'aElY', 'Zkpp', 'SEhG', 'ZFVo', 'SmlT', 'clRl', 'c2ZG', 'Wk52', 'SVJu', 'UmlD', 'SERV', 'bWV1', 'RWlP', 'QXdq', 'VWp2', 'UWtW', 'bHBM', 'bXR1', 'ZFZk', 'cVJU', 'cGZW', 'cEpw', 'VEJ3', 'aFdT', 'RlVF', 'eVBW', 'ak9m', 'WWlJ', 'dFBZ', 'RHBG', 'aEtF', 'V3VW', 'U0lP', 'Tkta', 'SUJr', 'UFdD', 'WkVm', 'UU1C', 'Wldh', 'VkVk', 'b1VJ', 'Y2xpZW50SWQ\x3d', 'MTAwMDU\x3d', 'c2lnbg\x3d\x3d', 'V0JO', 'YWNi', 'T2Jm', 'c2h4', 'Y3Nv', 'U0pq', 'VVRCU1ZHUXlWbWxNYlVacldXazBlVTFFUlRWTlJFVjNUVkU5UFE9PQ\x3d\x3d', 'dGltZXN0YW1w', 'd0lC', 'S2t1', 'Z2V0VGltZQ\x3d\x3d', 'c2VjcmV0U3Ry', 'c2h1aW5peGlhbmdzaHVpc2hpc2hhYmk\x3d', 'YkFi', 'YkJT'];
 //var qs_arg_num = 0x166
 (function(qs_base_data, qs_arg_num) { /*_0xb781f0 _0x4417ff*/
@@ -148,37 +150,39 @@ var _0x0428 = function(qs_arg_id, _0x378143) {
 
 
 
-//var makeArgs = function(_0x4c3da2) {
-//    var _0x4bf5ad = {
-//        '\x57\x42\x4e': function _0x5089ae(_0x1c7d88, _0x50e2dd) {
-//            return _0x1c7d88(_0x50e2dd);
-//        }
-//    };
-//    _0x4c3da2[_0x0428('0x0')] = _0x0428('0x1');
-//    _0x4c3da2[_0x0428('0x2')] = _0x4bf5ad[_0x0428('0x3')](signFuc, _0x4c3da2);
-//    return _0x4c3da2;
-//};
+var makeArgs = function(_0x4c3da2) {
+    var _0x4bf5ad = {
+        '\x57\x42\x4e': function _0x5089ae(_0x1c7d88, _0x50e2dd) {
+            return _0x1c7d88(_0x50e2dd);
+        }
+    };
+    _0x4c3da2[_0x0428('0x0')] = _0x0428('0x1');
+    _0x4c3da2[_0x0428('0x2')] = _0x4bf5ad[_0x0428('0x3')](signFuc, _0x4c3da2);
+    return _0x4c3da2;
+};
 
 
-//var formatArgs = function(_0x173850) {
-//    var _0x374930 = {
-//        '\x61\x63\x62': function _0x23c185(_0x4ac4bb, _0x182ba1) {
-//            return _0x4ac4bb(_0x182ba1);
-//        },
-//        '\x4f\x62\x66': function _0x392f9d(_0x1b3e54, _0x57ea68) {
-//            return _0x1b3e54 + _0x57ea68;
-//        },
-//        '\x73\x68\x78': function _0x538393(_0xb1552a, _0x4e4046) {
-//            return _0xb1552a + _0x4e4046;
-//        }
-//    };
-//    var _0x173850 = _0x374930[_0x0428('0x4')](makeArgs, _0x173850);
-//    var _0x12b862 = '';
-//    for (var _0x12f3b0 in _0x173850) {
-//        _0x12b862 += _0x374930[_0x0428('0x5')](_0x374930[_0x0428('0x5')](_0x374930[_0x0428('0x6')]('\x2f', _0x12f3b0), '\x2f'), _0x173850[_0x12f3b0]);
-//    }
-//    return _0x12b862;
-//};
+var formatArgs = function(_0x173850) {
+    var _0x374930 = {
+        '\x61\x63\x62': function _0x23c185(_0x4ac4bb, _0x182ba1) {
+            return _0x4ac4bb(_0x182ba1);
+        },
+        '\x4f\x62\x66': function _0x392f9d(_0x1b3e54, _0x57ea68) {
+            return _0x1b3e54 + _0x57ea68;
+        },
+        '\x73\x68\x78': function _0x538393(_0xb1552a, _0x4e4046) {
+            return _0xb1552a + _0x4e4046;
+        }
+    };
+    var _0x173850 = _0x374930[_0x0428('0x4')](makeArgs, _0x173850);
+    var _0x12b862 = '';
+    for (var _0x12f3b0 in _0x173850) {
+        _0x12b862 += _0x374930[_0x0428('0x5')](_0x374930[_0x0428('0x5')](_0x374930[_0x0428('0x6')]('\x2f', _0x12f3b0), '\x2f'), _0x173850[_0x12f3b0]);
+    }
+    return _0x12b862;
+};
+
+
 var signFuc = function(_0x343ae3) {
     var _0x337c57 = {
         'cso': function _0x2ca3bf(_0x5a4352, _0x190618) {
@@ -534,61 +538,61 @@ function GeturlRequest(_0x4aa809) {
     return _0x5a7d1d;
 }
 
-//var makeArgsUrls = function(_0x27b627) {
-//    var _0x44ce11 = {
-//        'IJk': function _0x3dc06a(_0xa93da6, _0x1c7c82) {
-//            return _0xa93da6(_0x1c7c82);
-//        },
-//        'KEP': function _0x3245c3(_0x51b1b4, _0x5d0874) {
-//            return _0x51b1b4 - _0x5d0874;
-//        },
-//        'ecH': function _0x52f04c(_0xeee2da, _0x134206) {
-//            return _0xeee2da + _0x134206;
-//        },
-//        'DQW': function _0x3aa80c(_0x2d2890, _0x5a06b8) {
-//            return _0x2d2890 + _0x5a06b8;
-//        },
-//        'qfw': function _0x350b55(_0x42dbff, _0x5b9d6c) {
-//            return _0x42dbff + _0x5b9d6c;
-//        },
-//        'dIy': function _0x36cdfb(_0x3b815f, _0x3d0330) {
-//            return _0x3b815f + _0x3d0330;
-//        }
-//    };
-//    var _0x17cf80 = _0x0428('0x4f')[_0x0428('0x19')]('|')
-//      , _0x1a4387 = 0x0;
-//    while (!![]) {
-//        switch (_0x17cf80[_0x1a4387++]) {
-//        case '0':
-//            var _0x3d8eed = _0x44ce11[_0x0428('0x50')](GeturlRequest, _0x27b627);
-//            continue;
-//        case '1':
-//            _0x503308 = _0x503308[_0x0428('0x15')](0x0, _0x44ce11[_0x0428('0x51')](_0x503308[_0x0428('0x17')], 0x1));
-//            continue;
-//        case '2':
-//            var _0x503308 = _0x44ce11[_0x0428('0x52')](_0x3d8eed[_0x0428('0x4b')], '?');
-//            continue;
-//        case '3':
-//            _0x3958ff[_0x0428('0x0')] = _0x0428('0x1');
-//            continue;
-//        case '4':
-//            return _0x503308;
-//            continue;
-//        case '5':
-//            for (var _0x540d56 in _0x3958ff) {
-//                _0x503308 += _0x44ce11[_0x0428('0x53')](_0x44ce11[_0x0428('0x54')](_0x44ce11[_0x0428('0x55')](_0x540d56, '='), _0x3958ff[_0x540d56]), '&');
-//            }
-//            continue;
-//        case '6':
-//            _0x3958ff[_0x0428('0x2')] = _0x44ce11[_0x0428('0x50')](signFuc, _0x3958ff);
-//            continue;
-//        case '7':
-//            var _0x3958ff = _0x3d8eed[_0x0428('0x4a')];
-//            continue;
-//        }
-//        break;
-//    }
-//};
+var makeArgsUrls = function(_0x27b627) {
+    var _0x44ce11 = {
+        'IJk': function _0x3dc06a(_0xa93da6, _0x1c7c82) {
+            return _0xa93da6(_0x1c7c82);
+        },
+        'KEP': function _0x3245c3(_0x51b1b4, _0x5d0874) {
+            return _0x51b1b4 - _0x5d0874;
+        },
+        'ecH': function _0x52f04c(_0xeee2da, _0x134206) {
+            return _0xeee2da + _0x134206;
+        },
+        'DQW': function _0x3aa80c(_0x2d2890, _0x5a06b8) {
+            return _0x2d2890 + _0x5a06b8;
+        },
+        'qfw': function _0x350b55(_0x42dbff, _0x5b9d6c) {
+            return _0x42dbff + _0x5b9d6c;
+        },
+        'dIy': function _0x36cdfb(_0x3b815f, _0x3d0330) {
+            return _0x3b815f + _0x3d0330;
+        }
+    };
+    var _0x17cf80 = _0x0428('0x4f')[_0x0428('0x19')]('|')
+      , _0x1a4387 = 0x0;
+    while (!![]) {
+        switch (_0x17cf80[_0x1a4387++]) {
+        case '0':
+            var _0x3d8eed = _0x44ce11[_0x0428('0x50')](GeturlRequest, _0x27b627);
+            continue;
+        case '1':
+            _0x503308 = _0x503308[_0x0428('0x15')](0x0, _0x44ce11[_0x0428('0x51')](_0x503308[_0x0428('0x17')], 0x1));
+            continue;
+        case '2':
+            var _0x503308 = _0x44ce11[_0x0428('0x52')](_0x3d8eed[_0x0428('0x4b')], '?');
+            continue;
+        case '3':
+            _0x3958ff[_0x0428('0x0')] = _0x0428('0x1');
+            continue;
+        case '4':
+            return _0x503308;
+            continue;
+        case '5':
+            for (var _0x540d56 in _0x3958ff) {
+                _0x503308 += _0x44ce11[_0x0428('0x53')](_0x44ce11[_0x0428('0x54')](_0x44ce11[_0x0428('0x55')](_0x540d56, '='), _0x3958ff[_0x540d56]), '&');
+            }
+            continue;
+        case '6':
+            _0x3958ff[_0x0428('0x2')] = _0x44ce11[_0x0428('0x50')](signFuc, _0x3958ff);
+            continue;
+        case '7':
+            var _0x3958ff = _0x3d8eed[_0x0428('0x4a')];
+            continue;
+        }
+        break;
+    }
+};
 
 var hs1 = function(_0x5efa4e) {
     var _0x1c1e47 = function() {
@@ -992,6 +996,7 @@ var hs1 = function(_0x5efa4e) {
                 }
             }(_0x4140c6);
         } else {
+            // 主要实现了对console方法的自定义（清空），干扰js调试打印
             console.log('???')
             var _0x4531f0 = _0x0428('0x66')[_0x0428('0x19')]('|')
               , _0x34b27b = 0x0;

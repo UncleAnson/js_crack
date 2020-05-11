@@ -50,5 +50,5 @@ params["sign"] = sign
 #
 url = 'https://www.chandashi.com/Api/apps/reviewDatas'
 
-resp = requests.get(url, headers=headers, params=params)
-print(resp.json())
+# resp = requests.get(url, headers=headers, params=params)
+# print(resp.json())
